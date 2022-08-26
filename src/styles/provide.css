@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Mulish', sans-serif; */
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner .provide {
+  width: 90%;
+  height: 790px;
+  border: 1px solid transparent;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.conteiner .provide .provide_left {
+  width: 40%;
+  height: 100%;
+}
+.conteiner .provide .provide_right {
+  width: 40%;
+  height: 100%;
+}
+
+.conteiner .provide .provide_right h2 {
+  border: 1px solid transparent;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #1c2752;
+  background-color: #f4f4f4;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.conteiner .provide .provide_right h1 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
+  color: #1c2752;
+  margin-bottom: 20px;
+}
+
+.conteiner .provide .provide_right p {
+  font-size: 18px;
+  color: #7e7e7e;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.conteiner .provide .provide_right .provede_right_box {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteiner
+  .provide
+  .provide_right
+  .provede_right_box
+  .provede_right_box_itemOne {
+  width: 35%;
+  height: 200px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.conteiner
+  .provide
+  .provide_right
+  .provede_right_box
+  .provede_right_box_itemOne
+  h1 {
+  margin-top: 22px;
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffb342;
+  font-family: "Mulish", sans-serif;
+}
+
+.conteiner
+  .provide
+  .provide_right
+  .provede_right_box
+  .provede_right_box_itemOne
+  p {
+  font-family: "Mulish", sans-serif;
+  color: #1c2752;
+}
+
+.conteiner
+  .provide
+  .provide_right
+  .provede_right_box
+  .provede_right_box_itemOne {
+  background-color: #f4f4f4;
+}
+
+.conteiner .provide .provide_right .provede_right_box .provede_right_box_itemTwo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #7E7E7E;
+  font-weight: 400;
+}

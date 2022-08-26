@@ -14,15 +14,15 @@ export default function App() {
   return (
     <div>
       <Header/>
-      {/* <Provide/>
+      <Provide/>
       <Professional/>
       <Services/>
-      <Reasons/>
-      <Recent/>
-      <Contact/>
-      <Costumize/>
-      <News/>
-      <Footer/> */}
+      {/* <Reasons/> */}
+      {/* <Recent/> */}
+      {/* <Contact/> */}
+      {/* <Costumize/> */}
+      {/* <News/> */}
+      {/* <Footer/> */}
     </div>
   )
 }

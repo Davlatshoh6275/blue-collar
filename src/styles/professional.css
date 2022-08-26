@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Mulish', sans-serif; */
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner .profesional {
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background-color: #FFB342;
+  padding: 100px 80px 0 80px;
+
+}
+
+.conteiner .profesional h2 {
+  border: 1px solid #fff;
+  width: 13%;
+  margin: 0 auto;
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1C2752;
+  margin-bottom: 20px;
+}
+
+.conteiner .profesional h1 {
+  font-size: 45px;
+  font-weight: 400;
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 20px;
+}
+
+.conteiner .profesional p {
+  width: 46%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #1C2752;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.conteiner .profesional .btns {
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 80px;
+  border: 1px solid transparent;
+  margin-bottom: 50px;
+}
+
+.conteiner .profesional .btns a {
+  width: 30%;
+  height: 80%;
+  border: 1px solid #1C2752;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #222;
+}
+
+.conteiner .profesional .btns .active {
+  background-color: #fff;
+  border: none;
+}
+
+.conteiner .profesional .profesional_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 480px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  text-align: left;
+  padding: 50px 40px;
+  box-shadow: -1px 6px 18px rgba(0, 0, 0, 0.09);
+}
+
+.conteiner .profesional .profesional_box .professional_box_left {
+  width: 55%;
+  height: 100%;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+.conteiner .profesional .profesional_box .professional_box_left h3 {
+  border: 1px solid transparent;
+  width: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F4F4F4;
+  color: #1C2752;
+  font-weight: 400;
+  font-style: 16px;
+  margin-bottom: 10px;
+
+}
+
+.conteiner .profesional .profesional_box .professional_box_left h1 {
+  font-size: 50px;
+  color: #1C2752;
+  font-family: 'Mulish', sans-serif;
+}
+
+.conteiner .profesional .profesional_box .professional_box_left p {
+  text-align: left;
+  width: 75%;
+  margin: 0;
+  font-size: 16px;
+  color: #7E7E7E;
+  margin-bottom: 10px;
+}
+
+.conteiner .profesional .profesional_box .professional_box_left .text {
+  margin-bottom: 60px;
+}
+
+.conteiner .profesional .profesional_box .professional_box_left a {
+  border: 1px solid transparent;
+  padding: 18px 40px;
+  background: #FFB342;
+  color: #1C2752;
+}

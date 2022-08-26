@@ -16,7 +16,7 @@
 
 .conteiner .navbar {
   width: 100%;
-  height: 230px;
+  height: 210px;
   margin: 0 auto;
   border: 1px solid transparent;
   background-color: #F2F2F2;
@@ -53,7 +53,12 @@
 
 .conteiner .navbar nav .navRight  ul  li a i {
   font-size: 24px;
+  transition: .5s all ;
   color: #1C2752;
+}
+
+.conteiner .navbar nav .navRight  ul  li a i:hover {
+  color: #FFB342;
 }
 
 .conteiner .navbar .navTwo {
@@ -63,14 +68,12 @@
   border: 1px solid transparent;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   padding: 1% 5%;
 }
 
 .conteiner .navbar .navTwo .navTwo_links {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 35%;
   height: 90%;
 }
@@ -137,7 +140,12 @@
   color: #222222;
   font-size: 16px;
   font-weight: 400;
+  transition: .5s all;
 } 
+
+.conteiner .header .header_nav .header_nav_left ul li a:hover {
+  color: #fff;
+}
 
 .conteiner .header .header_nav .header_nav_left ul .active a{
   color: #fff;
@@ -185,8 +193,15 @@
   font-size: 70px;
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
+  margin-bottom: 60px;
 }
 
-.conteiner .header .header_content {
-  
+.conteiner .header .header_content a {
+  border: 1px solid #FFB342;
+  padding: 20px 60px;
+  background-color: #FFB342;
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
 }
+
